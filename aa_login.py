@@ -44,13 +44,10 @@ class AirArabiaSharajahLogin(unittest.TestCase):
         finally:
             driver.quit()
 
-# pass_field = driver.find_element_by_class_name('form-control.ng-isolate-scope.ng-valid-pattern.ng-valid-minlength.ng-dirty.ng-valid-parse ng-valid.ng-valid-required.ng-touched')
-# pass_field.send_keys(data.pass_sharjah)
-
-# time.sleep(2)
 
 def tearDown(self):
     self.driver.quit()
+
 
 if __name__ == '__main__':
     unittest.main()
